@@ -108,3 +108,17 @@ const contadorInterval = setInterval(actualizarContador, 1000);
 
 // Actualizar contador al cargar la página
 actualizarContador();
+
+
+
+
+
+
+function entrarConMusica() {
+	document.getElementById('popupContainer').style.display = 'none';
+	document.getElementById('audioPlayer').play();
+  }
+  
+  function cerrarPopup() {
+	document.getElementById('popupContainer').style.display = 'none';
+  }

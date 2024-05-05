@@ -4,21 +4,21 @@ $errorMSG = "";
 
 // NAME
 if (empty($_POST["name"])) {
-    $errorMSG = "Name is required ";
+    $errorMSG = "Nombre Obligatorio ";
 } else {
     $name = $_POST["name"];
 }
 
 // EMAIL
 if (empty($_POST["email"])) {
-    $errorMSG .= "Email is required ";
+    $errorMSG .= "Email es Oblogatorio ";
 } else {
     $email = $_POST["email"];
 }
 
 // MSG Guest
 if (empty($_POST["guest"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "El campo es Obligatorio ";
 } else {
     $guest = $_POST["guest"];
 }
@@ -26,7 +26,7 @@ if (empty($_POST["guest"])) {
 
 // MSG Event
 if (empty($_POST["event"])) {
-    $errorMSG .= "Subject is required ";
+    $errorMSG .= "El campo es obligatorio ";
 } else {
     $event = $_POST["event"];
 }
@@ -34,7 +34,7 @@ if (empty($_POST["event"])) {
 
 // MESSAGE
 if (empty($_POST["message"])) {
-    $errorMSG .= "Message is required ";
+    $errorMSG .= "El campo es obligatorio ";
 } else {
     $message = $_POST["message"];
 }

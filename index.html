@@ -38,6 +38,21 @@
 
 <body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
 
+	<!-- POPUP -->
+	<div class="popup-container" id="popupContainer">
+		<div class="popup">
+		  <h2>¿Deseas entrar con música?</h2>
+		  <p>Recuerda bajar el volumen.</p>
+		  <button onclick="entrarConMusica()">Sí</button>
+		  <button onclick="cerrarPopup()">No</button>
+		</div>
+	  </div>
+	  <audio id="audioPlayer" autoplay loop>
+		<source src="/musica/enamorado.mp3" type="audio/mp3">
+		Tu navegador no soporta el elemento de audio.
+	  </audio>
+	<!-- EN POPUP -->
+
 	<!-- LOADER -->
 	<div id="preloader">
 		<div class="preloader pulse">

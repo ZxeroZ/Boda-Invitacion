@@ -813,8 +813,41 @@ select.form-control:not([size]):not([multiple]){
 
 
 
+.popup-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 99;
+  }
+  
+  .popup {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+	font-family: "Poppins", sans-serif;
 
-
+  }
+  
+  button {
+	padding: 10px 20px;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: hover 1s;
+	letter-spacing: .5px;
+  }
+  
+  button:hover {
+	background-color: #dd666c;
+  }
 
 
 
