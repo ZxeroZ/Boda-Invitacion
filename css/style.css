@@ -826,7 +826,7 @@ select.form-control:not([size]):not([multiple]){
 	z-index: 99;
   }
   
-  .popup {
+  .popb {
 	background-color: #fff;
 	padding: 20px;
 	border-radius: 15px;
@@ -835,7 +835,7 @@ select.form-control:not([size]):not([multiple]){
 
   }
   
-  button {
+  .popb{
 	padding: 10px 20px;
 	margin: 10px;
 	border: none;
