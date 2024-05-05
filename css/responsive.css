@@ -2,6 +2,8 @@
 /* tablets */
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
+
+	
 	.top-header .navbar .navbar-collapse ul li a{
 		padding: 5px 15px;
 	}
@@ -16,6 +18,62 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+
+	
+	/*//////////////////////////////*/
+
+	.family-box{
+		padding: 70px 0px;
+		width: 100%;
+	}
+	
+	.single-team-member {
+		position: relative;
+		margin-top: 30px;
+		border: 10px solid #fff;
+		box-shadow: 0 2px 5px rgba(0,0,0,.1);
+	}
+	
+	.contador{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding: 35px 0px 0px 0px;
+	}
+	
+	.reloj {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 44px;
+		background-color: #dd666c;
+		padding: 10px 40px;
+		color: rgb(255, 255, 255);
+		border-radius: 10px;
+		width: 100%;
+	  }
+	  
+	  .reloj div {
+		margin: 0 10px;
+	  }
+	  
+	  .linea {
+		width: 100px;
+		height: 2px;
+		background-color: #333;
+		margin: 5px 0;
+	}
+	
+	#textoo{
+		font-size: 45px;
+	}
+	
+
+
+	/*********************************/
+
+	
+
 	.navbar-brand{
 		margin-left: 15px;
 	}
