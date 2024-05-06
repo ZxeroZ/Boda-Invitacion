@@ -69,7 +69,7 @@
 	}
 	
 	#textoo{
-		font-size: 45px;
+		font-size: 25px;
 	}
 	
 
@@ -129,4 +129,10 @@
 	.gallery-box ul li{
 		width: 50%;
 	}
+
+	
+input[type="submit"] {
+    
+    width: 50%;
+}
 }

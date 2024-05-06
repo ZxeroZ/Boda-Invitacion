@@ -452,6 +452,7 @@ button:focus{
 	background: #dd666c;
 }
 
+
 /*------------------------------------------------------------------
     About
 -------------------------------------------------------------------*/
@@ -728,73 +729,54 @@ button:focus{
     Contact
 -------------------------------------------------------------------*/
 
-.contact-box{
-	padding: 70px 0px;
-}
-.contact-block{}
-
-.contact-block .form-group .form-control{
-	background: #e6eceb;
-	height: 45px;
-	font-size: 16px;
-	border: 0;
-	color: #222222;
-	padding: 6px 15px;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
-	border-radius: 3px;
+.form-group {
+    margin-bottom: 20px;
 }
 
-.contact-block .form-group textarea.form-control{
-	height: 150px;
-	padding-top: 15px;
+label {
+    font-weight: bold;
+    color: #dd666c;
 }
 
-.submit-button .btn-common{
-	background-color: #63c7bd;
-	height: 45px;
-	line-height: 45px;
-	font-size: 16px;
-	font-weight: 600;
-	color: #fff;
-	padding: 0 15px;
-	border: 0;
-	outline: 0;
-	text-transform: uppercase;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-o-border-radius: 3px;
-	-ms-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-o-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	transition: all 0.3s;
-}
-.submit-button .btn-common:hover{
-	background-color: #dd666c;
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.custom-select{
-	height: 45px;
-	font-size: 16px;
-}
-select.form-control:not([size]):not([multiple]){
-	height: calc(45px + 2px);
+textarea {
+    resize: vertical;
 }
 
-.help-block ul li{
-	color: red;
+input[type="submit"] {
+    background-color: #dd666c;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+	margin-bottom: 50px;
 }
 
+input[type="submit"]:hover {
+    background-color: #bb5b60;
+}
+
+
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////*/
 .footer-box{
 	background: #292f35;
-	padding: 20px 0;
+	padding: 30px 0;
 }
 
 .footer-box .footer-company-name{

@@ -122,3 +122,30 @@ function entrarConMusica() {
   function cerrarPopup() {
 	document.getElementById('popupContainer').style.display = 'none';
   }
+
+
+  /*/////////////////////////////////////////////////////////////////*/
+  /*/////////////////////////////////////////////////////////////////*/
+  /*/////////////////////////////////////////////////////////////////*/
+  /*/////////////////////////////////////////////////////////////////*/
+
+
+  function crearMensajeWhatsApp() {
+	var nombre = document.getElementById("nombre").value;
+	var invitados = document.getElementById("invitados").value;
+	var eventos = document.getElementById("eventos").value;
+	var mensaje = document.getElementById("mensaje").value;
+  
+	var mensajeWhatsApp = "Hola! Mi nombre es " + nombre + " confirmo mi asistencia a " + eventos + " y llevaré " + invitados + " invitados.";
+	if (mensaje.trim() !== "") {
+	  mensajeWhatsApp += " Mensaje: " + mensaje;
+	}
+  
+	// Crear el enlace de WhatsApp
+	var telefono = "930884778"; // Reemplaza con tu número de WhatsApp
+	var url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensajeWhatsApp);
+  
+	// Abrir enlace de WhatsApp en una nueva pestaña
+	window.open(url, '_blank');
+  
+  }
