@@ -142,7 +142,7 @@ function entrarConMusica() {
 	}
   
 	// Crear el enlace de WhatsApp
-	var telefono = "930884778"; // Reemplaza con tu número de WhatsApp
+	var telefono = "+51 930884778"; // Reemplaza con tu número de WhatsApp
 	var url = "https://wa.me/" + telefono + "?text=" + encodeURIComponent(mensajeWhatsApp);
   
 	// Abrir enlace de WhatsApp en una nueva pestaña
